@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo "Cloning repository..."
-                git 'https://github.com/your-username/your-repo.git'
+                git 'https://github.com/shivamjswlll/Chat-application-Devops-'
             }
         }
 
