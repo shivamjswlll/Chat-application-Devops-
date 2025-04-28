@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs 'nodejs'  // Referencing the name you gave in Global Tool Configuration
+    }
+    
     environment {
         DOCKER_COMPOSE_PATH = "./docker-compose.yml"
     }
